@@ -1,0 +1,18 @@
+:root {
+  --primary-color: rgb(13, 122, 146);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+}
+
+.container {
+  max-width: 80rem;
+}
