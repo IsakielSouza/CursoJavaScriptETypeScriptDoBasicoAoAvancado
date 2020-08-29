@@ -10,6 +10,7 @@
 * {
   box-sizing: border-box;
   outline: 0;
+  list-style:none
 }
 
 body {
@@ -27,6 +28,12 @@ body {
   background: #fff;
   padding: 20px;
   border-radius: 20px;
+}
+
+.grid-container {
+ display: grid;
+ grid-column-gap: 2px;
+ grid-template-columns: auto auto;
 }
 
 form input, form label, form button {
@@ -63,4 +70,12 @@ form button:hover {
 
 form button:active {
   background: var(--primary-color-darker2);
+}
+
+form table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
 }
